@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sana Kalbimden Bir Sürpriz</title>
+  <style>
+    body {
+      background-color: #fddde6;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #b30059;
+    }
+    p {
+      color: #660033;
+      font-size: 18px;
+      max-width: 700px;
+    }
+    .photo-frame {
+      border: 5px solid #ff99c2;
+      border-radius: 30px;
+      padding: 10px;
+      margin: 15px;
+      box-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
+      position: relative;
+    }
+    .photo-frame img {
+      border-radius: 20px;
+      max-width: 90vw;
+      height: auto;
+    }
+    .heart {
+      position: absolute;
+      top: -15px;
+      right: -15px;
+      font-size: 30px;
+      color: #ff3366;
+    }
+    audio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sana Kalbimden Bir Sürpriz...</h1>
+  <p>
+    Seni tanımak, kalbimde bir yıldızın doğuşunu izlemek gibiydi.<br>
+    Her gülüşün içimi ısıttı, her bakışın beni benden aldı.<br>
+    Belki zaman bazen karmaşıklaştı, ama duygularım hep netti: seni sevdim.<br>
+    Ve bu küçük sayfa, sana olan sevgimin dijital bir yansıması sadece...
+  </p>
+
+  <!-- Fotoğraf 1 -->
+  <div class="photo-frame">
+    <div class="heart">❤️</div>
+    <img src="photo1.jpg" alt="Birlikte anı 1">
+  </div>
+
+  <!-- Fotoğraf 2 -->
+  <div class="photo-frame">
+    <div class="heart">❤️</div>
+    <img src="photo2.jpg" alt="Birlikte anı 2">
+  </div>
+
+  <!-- Fotoğraf 3 -->
+  <div class="photo-frame">
+    <div class="heart">❤️</div>
+    <img src="photo3.jpg" alt="Birlikte anı 3">
+  </div>
+
+  <!-- Şarkı -->
+  <audio controls autoplay loop>
+    <source src="intihaşk.mp3" type="audio/mpeg">
+    Tarayıcınız ses dosyasını desteklemiyor.
+  </audio>
+</body>
+</html>
